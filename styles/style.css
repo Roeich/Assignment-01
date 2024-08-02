@@ -160,6 +160,48 @@ h1,h2,h3,h4,h5,h6{
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
 }
-.reason-card-imagebox{
+
+.inspiration-section{
+    padding-top: 88px;
 }
-.reason-card-image{}
+
+.inspiration-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.inspiration-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 48px;
+}
+.inspiration-videoBox{
+    padding: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+.inspiration-videoWrapper{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; 
+}
+
+.inspiration-videoWrapper iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
