@@ -315,3 +315,83 @@ h1,h2,h3,h4,h5,h6{
     height: auto;
     margin-right: 24px;
 }
+
+.contact-section{
+    padding: 50px 0px 80px;
+}
+.contact-title{
+    color: white;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.contact-description{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 48px;
+}
+.contact-content{
+    padding: 64px;
+    border-radius: 16px;
+    /* background-image: url("../assets/handshake.jpg"); */
+    background:linear-gradient(to bottom,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url("../assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-input-group{
+    display: flex;
+    justify-content: center;
+}
+.contact-input,
+.contact-button{
+    font-size: 18px;
+    padding: 20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+.contact-input{
+    width: 518px;
+    margin-right: 16px;
+}
+.contact-button{
+    font-weight: 600;
+}
+
+.footer{
+    padding: 32px 150px 32px 150px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-left{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+}
+.footer-socials{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.footer-socials li{
+    margin-left: 24px;
+}
+.footer-socials img{
+    width: 36px;
+}
